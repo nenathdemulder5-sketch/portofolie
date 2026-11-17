@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="nl-BE" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
+
+
+    <header class="bg-blue-800 text-white p-4 shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-4">
+            
+    
+            <a href="index.html" class="flex items-center gap-3">
+    <img src="assets/images/LOGO.png" alt="Logo" class="h-8 w-auto">
+    <span class="font-bold">Nenath De Mulder</span>
+</a>
+            </a>
+
+            <nav class="flex flex-wrap items-center gap-4 text-sm font-medium">
+                <a href="index.html" class="font-bold hover:text-green-700">Home</a>
+                <a href="portfolio.html" class=" hover:text-green-700 transition-colors">Portfolio</a>
+                <a href="projecten.html" class="underline hover:text-green-700 transition-colors">Projecten</a>
+                <a href="contact.html" class="hover:text-green-700 transition-colors">Contact</a>
+                <a href="test1.html" class="hover:text-green-700 transition-colors">test1</a>
+                <a href="test2.html" class="hover:text-green-700 transition-colors">test2</a>
+                <a href="test3.html" class="hover:text-green-700 transition-colors">test3</a>
+            </nav>
+
+        </div>
+    </header>
+    <body class="bg-gray-50 text-gray-800">
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        
+        <section class="bg-[url(assets/images/placeholder.png)] bg-cover bg-center bg-blue-800 bg-blend-multiply rounded-lg px-6 py-12 flex flex-col md:flex-row items-center justify-center gap-8">
+            
+            <a href="index.html" class="shrink-0 transition-transform hover:scale-105" title="Ga naar homepagina">
+                <img src="assets/images/LOGO.png" alt="Logo" class="h-32 md:h-40 w-auto object-contain">
+            </a>
+
+            <div class="text-center md:text-left">
+                <h1 class="mb-3 text-4xl font-bold tracking-tight text-white">Nenath De Mulder</h1>
+                <p class="mb-6 text-lg text-gray-100">
+                    Student systeem- en netwerkbeheer aan AP Hogeschool.
+                </p>
+                <a href="#projecten" class="inline-flex items-center gap-2 rounded-lg bg-white px-5 py-2 font-semibold text-gray-900 hover:bg-gray-100 transition-colors">
+                    Bekijk mijn projecten
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="size-5" aria-hidden="true">
+                        <path d="M5 12h14M13 6l6 6-6 6"/>
+                    </svg>
+                </a>
+            </div>
+
+        </section>
+
+        <section id="projecten" class="mt-12">
+            <h2 class="mb-6 text-3xl font-bold">Mijn projecten</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <article class="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow">
+                    <img src="assets/images/server.webp" alt="Server opbouwen" class="aspect-video w-full object-cover">
+                    <div class="p-5">
+                        <h3 class="mb-2 text-xl font-bold">Server opbouwen</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Een eigen server bouwen, beveiligen en onderhouden. Beheer van gebruikers, permissies en services op een fysieke serveromgeving binnen het netwerk.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow">
+                    <img src="assets/images/server.webp" alt="Netwerkconfiguratie" class="aspect-video w-full object-cover">
+                    <div class="p-5">
+                        <h3 class="mb-2 text-xl font-bold">Netwerkconfiguratie</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Opzetten van Cisco switches en routers met VLAN's, routingprotocollen en firewallregels voor een veilige bedrijfsomgeving.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow">
+                    <img src="assets/images/server.webp" alt="Cloud Infrastructuur" class="aspect-video w-full object-cover">
+                    <div class="p-5">
+                        <h3 class="mb-2 text-xl font-bold">Cloud Infrastructuur</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Implementatie van virtuele machines en cloudservices in Azure en AWS met geautomatiseerde back-up- en herstelprocedures.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow">
+                    <img src="assets/images/server.webp" alt="Active Directory" class="aspect-video w-full object-cover">
+                    <div class="p-5">
+                        <h3 class="mb-2 text-xl font-bold">Active Directory</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Inrichten van Windows Server Active Directory Domain Services (AD DS) met Group Policy Objects (GPO) voor centraal beheer.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow">
+                    <img src="assets/images/server.webp" alt="Cybersecurity Lab" class="aspect-video w-full object-cover">
+                    <div class="p-5">
+                        <h3 class="mb-2 text-xl font-bold">Cybersecurity Lab</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Opzetten van een testomgeving om kwetsbaarheden te analyseren, indringers op te sporen en preventieve beveiligingsmaatregelen te treffen.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow">
+                    <img src="assets/images/server.webp" alt="Automatisering & Scripting" class="aspect-video w-full object-cover">
+                    <div class="p-5">
+                        <h3 class="mb-2 text-xl font-bold">Automatisering & Scripting</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">
+                            Beheertaken automatiseren met behulp van PowerShell en Bash-scripts om herhaaldelijk werk te verminderen en efficiëntie te verhogen.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
